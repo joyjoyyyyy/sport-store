@@ -1,0 +1,93 @@
+//use font karta from google font
+
+@import url('https://fonts.googleapis.com/css2?family=Karta:wght@300&display=swap');
+
+* {
+    font-family: 'Karta', sans-serif;
+    font-size: 16px;
+
+}
+body {
+    background-color: #f7f7f7;
+}
+#sidebar {
+}
+.sidebar{
+    //write width 15vw default and min width to prevent the sidebar from being too small
+    width: 100%;
+    max-width: 300px;
+    height: 100vh;
+    margin-right: 1rem;
+    margin-left:2rem;
+}
+
+.sidebar-brand-container{
+    width: 100%;
+    height: 10vh;
+    margin: 1rem 0;
+}
+
+.sidebar-brand-container i, .sidebar-brand-container span{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+.sidebar ul{
+    background-color: white;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.sidebar ul li{
+    font-size: 1.5rem;
+    padding: 0;
+    height: 4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+.sidebar ul li i{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.sidebar ul li span a{
+    text-decoration: none;
+    color: black; 
+}
+.sidebar ul li:hover, .sidebar li.active{
+    background-color: #FDDB8E;
+    border-color: #FDDB8E;
+    cursor: pointer;
+}
+
+.nav-group a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.greeting {
+    height: 10vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.greeting span{
+    font-size: 2rem;
+    font-weight: 300; 
+}
+
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
